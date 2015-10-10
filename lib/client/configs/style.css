@@ -1,3 +1,27 @@
 .bg-body{
     background: #525454;
 }
+.ws-container{
+    width: 100%;
+}
+.memory-cpu{
+    height: 200px;
+    width: 100% !important;
+}
+.memory-ram{
+    height: 200px;
+    width: 100% !important;
+}
+#onlineChart{
+    margin-top: 20px;
+    height: 250px;
+    width: 100% !important;
+}
+.bg-os{
+    background: #2a2a2b;
+}
+.counter{
+    color: #2b908f;
+    text-align: center;
+    font-size: 40px;
+}

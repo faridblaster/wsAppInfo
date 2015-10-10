@@ -1,7 +1,11 @@
 <template name="onlineUser">
     {{#if Template.subscriptionsReady}}
-        {{onlineUserCount}}
+        {{> previewChart onlineUserCursor=onlineUser}}
         {{else}}
-            loading
     {{/if}}
+</template>
+<template name="previewChart">
+    <div id="onlineChart">
+
+    </div>
 </template>

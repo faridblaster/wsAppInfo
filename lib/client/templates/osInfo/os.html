@@ -1,0 +1,12 @@
+<template name="os">
+<div class="ws-row">
+    {{#if getInfo}}
+        {{#with getInfo}}
+            <h5> <span class="title">Host:</span> {{host}}</h5>
+            <h5> <span class="title">memory:</span> {{memory}} Gb.</h5>
+            <h5> <span class="title">platform:</span> {{platform}}</h5>
+            <h5> <span class="title">version:</span> {{release}}</h5>
+        {{/with}}
+    {{/if}}
+</div>
+</template>
