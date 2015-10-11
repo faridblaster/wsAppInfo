@@ -1,5 +1,5 @@
 # WsAppInfo
-
+WsAppInfo helps you to monitor how many users are online, total no of users and % of memory used.. (more to come :) ) 
  right now it has.
   - total  user counter
   - realtime online user in chart
@@ -10,6 +10,7 @@ Next
 
 ### demo
 * [see demo here](http://wsappinfo.meteor.com/)
+
 ### Installation
 ```sh
 meteor add wsnepal:app-info
