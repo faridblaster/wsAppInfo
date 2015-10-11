@@ -2,10 +2,10 @@
 <div class="ws-row">
     {{#if getInfo}}
         {{#with getInfo}}
-            <h5> <span class="title">Host:</span> {{host}}</h5>
-            <h5> <span class="title">memory:</span> {{memory}} Gb.</h5>
-            <h5> <span class="title">platform:</span> {{platform}}</h5>
-            <h5> <span class="title">version:</span> {{release}}</h5>
+            <h5> <span class="text-detail">Host: </span><span class="text-title"> {{host}}</span></h5>
+            <h5> <span class="text-detail">memory: </span> <span class="text-title">{{memory}} Gb.</span> </h5>
+            <h5> <span class="text-detail">platform: </span><span class="text-title">{{platform}}</span>  </h5>
+            <h5> <span class="text-detail">version: </span> <span class="text-title">{{release}}</span> </h5>
         {{/with}}
     {{/if}}
 </div>

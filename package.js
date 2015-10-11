@@ -1,13 +1,13 @@
 
 Package.describe({
-    name: "wsnepal:serverstatus",
-    summary: "",
+    name: "wsnepal:app-info",
+    summary: "monitor meteor app user traffic & memory usage",
     version: "0.0.1",
     git: "https://github.com/wsNepal/serverstatus"
 });
 Package.onUse(function(api){
     api.versionsFrom(['METEOR@1.0']);
-    api.use(['standard-minifiers','templating','accounts-base','mizzao:user-status','mongo','reactive-var','maazalik:highcharts-gauge']);
+    api.use(['standard-minifiers@1.0.1','templating','accounts-base','mizzao:user-status@0.1.7','mongo','reactive-var','maazalik:highcharts-gauge@0.3.1']);
     api.addFiles([
         'lib/client/configs/style.css',
         'lib/client/configs/highChartStyle.js',

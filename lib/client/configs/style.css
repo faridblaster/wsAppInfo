@@ -1,4 +1,16 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+.text-title{
+    padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #E0E0E3;
+}
+.text-detail{
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #2b908f;
+}
 .bg-body{
+    height: 200px;
     background: #525454;
 }
 .ws-container{
