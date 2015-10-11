@@ -15,6 +15,7 @@ Next
 ```sh
 meteor add wsnepal:app-info
 ```
+call the template where you want to display 
 
 ```sh
  {{> wsAppInfo}}
